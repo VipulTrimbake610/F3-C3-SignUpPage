@@ -1,5 +1,5 @@
 if(localStorage.getItem('loggedInUser')){
-    location.href = '/profile';
+    location.href = '/profile/index.html';
 }
 else{
 
@@ -34,7 +34,7 @@ function saveUser(name,email,password){
     localStorage.setItem('users',JSON.stringify(users))
     localStorage.setItem('loggedInUser',randomString)
     alert('Sign Up Successful!');
-    location.href = '/profile';
+    location.href = '/profile/index.html';
 }
 function generate16ByteString() {
     const numBytes = 16;

@@ -24,8 +24,8 @@ if(localStorage.getItem('loggedInUser')){
         localStorage.clear();
         console.log("hello");
         alert('Logged out Sucessful!');
-        location.href = '..';
+        location.href = '../index.html';
     })
 }else{
-    location.href = '..';
+    location.href = '../index.html';
 }
